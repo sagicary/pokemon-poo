@@ -59,7 +59,11 @@ if (uno==dos){
 	alert ("No se puede elegir el mismo pokemon para la batalla, elige otro :)");
 }else{
 	var resultado = document.getElementById("mostrar");
+<<<<<<< HEAD
    var muestra = ("<img src='" +imagen+ "' width='100' heigth='100'><img src='" +imagen2+ "' width='100' heigth='100'><br>"+pokemon1.nombre + " atacó a " + pokemon2.nombre + ". Y " + pokemon2.nombre + " tiene una vida de " + pokemon2.vida);
+=======
+   var muestra = ("<img src='"+imagen+"' width='100' heigth='100'><img src='"+imagen2+"' width='100' heigth='100'><br>"+pokemon1.nombre + " atacó a " + pokemon2.nombre + ". Y " + pokemon2.nombre + " tiene una vida de " + pokemon2.vida);
+>>>>>>> fd29656e0a378a3fe0af85ee7932978a0020dadc
 		resultado.innerHTML = muestra;
 }
 	//document.getElementById('mostrar').innerHTML += ("<center><li>"+holi+"</li></center>");
