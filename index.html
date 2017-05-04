@@ -7,22 +7,24 @@
 <body>
 <center>
 	<h1>Ejercicio Pokemon</h1>
-	<img src="https://i.ytimg.com/vi/jrZPHn5pF5c/maxresdefault.jpg" width="500" height="300">
+	<img src="https://i.ytimg.com/vi/jrZPHn5pF5c/maxresdefault.jpg" width="500" heigth="300">
 <p>
-	<select>
+	<select id="opcion1">
 		<option>Elegir Pokemon</option>
-		<option value="1">Pikachu</option><br>
-		<option value="1">Charmander</option><br>
+		<option value="Pikachu">Pikachu</option>
+		<option value="Charmander">Charmander</option>
 	</select>
 	VS
-	<select>
+	<select id="opcion2">
 		<option>Elegir Pokemon</option>
-		<option value="1">Pikachu</option><br>
-		<option value="1">Charmander</option><br>
+		<option value="Pikachu">Pikachu</option>
+		<option value="Charmander">Charmander</option>
 	</select>
 	<p>
-	<button>Pelear</button>
+	<button onclick="pelear()">Pelear</button>
+	<div id="mostrar"></div>
 
 </center>
+<script type="text/javascript" src="assets/main.js"></script>
 </body>
 </html>
